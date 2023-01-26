@@ -59,5 +59,11 @@ func main() {
 	router.PUT("/harga/:id", controllers.UpdateHarga)
 	router.DELETE("/harga/:id", controllers.DeleteHarga)
 
+	router.GET("/peminjaman", controllers.GetAllPeminjaman)
+	router.POST("/peminjaman", controllers.AddPeminjaman)
+	router.PUT("/peminjaman/:id", controllers.UpdatePeminjaman)
+	router.DELETE("/peminjaman/:id", controllers.DeletePeminjaman)
+
 	router.Run(":" + os.Getenv("PORT"))
+	//router.Run("localhost:8080")
 }

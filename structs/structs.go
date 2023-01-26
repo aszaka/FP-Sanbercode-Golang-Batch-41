@@ -1,7 +1,7 @@
 package structs
 
 import (
-	"cloud.google.com/go/civil"
+	"time"
 )
 
 type User struct {
@@ -26,11 +26,11 @@ type Harga struct {
 }
 
 type Peminjaman struct {
-	IdPeminjaman int16          `json:"id_peminjaman"`
-	IdPS         int16          `json:"id_ps"`
-	IdUser       int16          `json:"id_user"`
-	IdHarga      int16          `json:"id_harga"`
-	Peminjaman   civil.DateTime `json:"peminjaman"`
-	Pengembalian civil.DateTime `json:"pengembalian"`
-	Keterangan   string         `json:"keterangan"`
+	IdPeminjaman int16     `json:"id_peminjaman"`
+	IdPS         int16     `json:"id_ps"`
+	IdUser       int16     `json:"id_user"`
+	IdHarga      int16     `json:"id_harga"`
+	Peminjaman   time.Time `json:"peminjaman"`
+	Pengembalian time.Time `json:"pengembalian"`
+	Keterangan   string    `json:"keterangan"`
 }
