@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97bc2cc9-fbf7-4d52-814a-ff369a116eef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/controllers/peminjaman.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/.env" beforeDir="false" afterPath="$PROJECT_DIR$/config/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/.env" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/peminjaman.go" beforeDir="false" afterPath="$PROJECT_DIR$/repository/peminjaman.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/structs/structs.go" beforeDir="false" afterPath="$PROJECT_DIR$/structs/structs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/ps.go" beforeDir="false" afterPath="$PROJECT_DIR$/repository/ps.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +100,7 @@
       <workItem from="1674475305741" duration="9249000" />
       <workItem from="1674647981791" duration="5747000" />
       <workItem from="1674724905485" duration="2487000" />
-      <workItem from="1674727668662" duration="1691000" />
+      <workItem from="1674727668662" duration="3823000" />
     </task>
     <servers />
   </component>

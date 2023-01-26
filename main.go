@@ -64,6 +64,6 @@ func main() {
 	router.PUT("/peminjaman/:id", controllers.UpdatePeminjaman)
 	router.DELETE("/peminjaman/:id", controllers.DeletePeminjaman)
 
-	router.Run(":" + os.Getenv("PORT"))
-	//router.Run("localhost:8080")
+	//router.Run(":" + os.Getenv("PORT"))
+	router.Run("localhost:8080")
 }

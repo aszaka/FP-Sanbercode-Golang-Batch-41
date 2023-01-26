@@ -32,7 +32,7 @@ func GetAllPS(db *sql.DB) (err error, results []structs.MasterPS) {
 func AddPS(db *sql.DB, ps structs.MasterPS) (err error) {
 	sql := "INSERT INTO master_ps (tipe_ps,daftar_game,status_peminjaman) VALUES ($1,$2,0)"
 
-	errs := db.QueryRow(sql, ps.TipePS, ps.DaftarGame, ps.StatusPeminjaman)
+	errs := db.QueryRow(sql, ps.TipePS, ps.DaftarGame)
 
 	return errs.Err()
 }
